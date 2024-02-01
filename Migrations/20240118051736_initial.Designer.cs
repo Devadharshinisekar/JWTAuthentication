@@ -12,8 +12,8 @@ using ProductAPIVS.Models;
 namespace ProductAPIVS.Migrations
 {
     [DbContext(typeof(Learn_DBContext))]
-    [Migration("20230408110608_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20240118051736_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

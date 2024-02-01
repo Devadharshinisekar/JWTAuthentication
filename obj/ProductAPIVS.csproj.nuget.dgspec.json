@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Aspire\\asp.net practice\\ProductAPIVS (2)\\ProductAPIVS\\ProductAPIVS.csproj": {}
+    "D:\\ELMSApplication-master\\jwt\\ProductAPIVS.csproj": {}
   },
   "projects": {
-    "D:\\Aspire\\asp.net practice\\ProductAPIVS (2)\\ProductAPIVS\\ProductAPIVS.csproj": {
+    "D:\\ELMSApplication-master\\jwt\\ProductAPIVS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Aspire\\asp.net practice\\ProductAPIVS (2)\\ProductAPIVS\\ProductAPIVS.csproj",
+        "projectUniqueName": "D:\\ELMSApplication-master\\jwt\\ProductAPIVS.csproj",
         "projectName": "ProductAPIVS",
-        "projectPath": "D:\\Aspire\\asp.net practice\\ProductAPIVS (2)\\ProductAPIVS\\ProductAPIVS.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Aspire\\asp.net practice\\ProductAPIVS (2)\\ProductAPIVS\\obj\\",
+        "projectPath": "D:\\ELMSApplication-master\\jwt\\ProductAPIVS.csproj",
+        "packagesPath": "C:\\Users\\devadharshini.sekar\\.nuget\\packages\\",
+        "outputPath": "D:\\ELMSApplication-master\\jwt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\devadharshini.sekar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -67,17 +66,47 @@
               "target": "Package",
               "version": "[7.0.3, )"
             },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.6.12, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -99,7 +128,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
